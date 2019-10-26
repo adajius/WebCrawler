@@ -3,11 +3,11 @@ import praw
 import pandas as pd
 import datetime as dt
 
-reddit = praw.Reddit(client_id="4JSYiWXtv1n-1w", \
-                     client_secret="44q49Vxj1ByRVm6r5ykb_EHbxbk", \
-                     user_agent="Tess", \
-                     username="Prettytess", \
-                     password="legacy12.")
+reddit = praw.Reddit(client_id="CLIENT_ID_GOES_HERE", \
+                     client_secret="SECRET_CODE_GOES_HERE", \
+                     user_agent="USER_AGENT_GOES_HERE", \
+                     username="YOUR_USER_NAME_GOES_HERE", \
+                     password="YOUR_PASSWORD_GOES_HERE")
 
 subreddit = reddit.subreddit('cscareerquestions').search("HireVue")
 # top_subreddit = subreddit.top()
